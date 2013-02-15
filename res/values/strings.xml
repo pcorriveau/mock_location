@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MockLocation</string>
+    <string name="title_activity_main">MockLocation</string>
+    <string name="button_start">Start</string>
+    <string name="menu_what_tap">Tap</string>
+    <string name="menu_what_auto">Playback</string>
+    <string name="menu_record">Record</string>
+    <string name="menu_contact_us">Contact us</string>
+    <string name="menu_policy">Policy</string>
+    <string name="menu_about">About</string>
+    <string name="menu_legal">Google Legal Notices</string>
+    <string name="title_activity_select_route">Select a Route</string>
+    <string name="title_activity_about">About</string>
+    <string name="title_activity_policy">Privacy Policy</string>
+
+	<!-- Data Use Policy -->
+	<string name="access_wifi">MockLocation will use wifi to access the Google Maps servers if the network (cell) is unavailable.</string>
+	<string name="access_network">MockLocation will use the network (cell) to access the Google Maps servers.</string>
+	<string name="access_storage">MockLocation uses private local storage on your phone to save recorded routes for playback.</string>
+	<string name="access_mock">MockLocation is used to set mock locations returned by the GPS provider for testing purposes. This requires ACCESS_MOCK_LOCATION permission. 
+	    On most phones, this can be turned on or off by selecting Settings/Applications/Development/Allow mock locations.</string>
+	<string name="access_email">If you send us an email with comments or suggestions, we will
+        use your email address only to respond to those comments or suggestions. Your email address will not be sold or distributed.</string>
+	<string name="title_storage">Storage</string>
+	<string name="title_network">Cell</string>
+	<string name="title_wifi">Wifi</string>
+	<string name="title_mock">Mock Location</string>
+	<string name="title_email">Email</string>
+			
+	<string name="policy_text">
+	<![CDATA[
+   	<div style="font-size: larger;">
+		<p><h3>Privacy Policy</h3></p>
+        MockLocation does not collect any personal information, like your name, email adress or contacts.
+        <p>However, it does use the following features of your mobile device. Tap any of the icons for more details.</p>
+	</div>
+	]]>
+	</string>
+	
+	
+	<string name="privacy_policy">
+	<![CDATA[
+    	<div style="font-size: larger;">
+		<h2>Privacy Policy</h2>
+		<h3>How we use your information</h3>
+        MockLocation does not collect any personal information, like your name, email adress or contacts. If you send us an email with comments or suggestions, we will
+        use your email address only to respond to those comments or suggestions. Your email address will not be sold or distributed.
+		<br />
+        <h3>Permissions</h3>
+        <p>MockLocation uses the network (cell or wifi) in order to access Google Maps servers and therefore requires permission to do so.</p>
+        <p>MockLocation allows you to record and save routes for playback. The routes are saved to private local storage and requires write and read storage permissions.</p>
+        <p>MockLocation is used to set mock locations returned by the GPS provider for testing purposes. This requires ACCESS_MOCK_LOCATION permission. This can be turned on
+        or off by selecting Settings/Applications/Development/Allow mock locations.</p>
+        <p>This policy was last modified on 8/30/2012</p>
+	</div>
+	]]>
+	</string>
+    
+    <!-- Links -->
+    <string name="way_about">
+		<![CDATA[
+    		<div style="font-size: larger;">
+    		<p>MockLocation can be used to set fake GPS locations returned by the GPS provider for testing purposes.</p>
+			<p>MockLocation is a <a href="http://www.SocialGoodworking.us">SocialGoodworking</a> project brought to you by Paul Corriveau. The source code is available at <a href="https://github.com/pcorriveau/mock_location">Github.</a></p>
+			<p>Help us make MockLocation better!
+			If you have a comment or suggestion, we\'d love to hear it. 
+			<a href="mailto:paul@socialgoodworking.us?Subject=MockLocation">Contact us.</a>
+			</p>
+			<h5>Acknowledgements</h5>
+			<p><a href="https://github.com/JakeWharton/ActionBarSherlock">Jake Wharton\'s ActionBarSherlock.</a></p>
+			</div>
+      	]]>
+    </string>
+    
+	<string name="mock_security_error">
+	<![CDATA[
+    	<div style="font-size: larger;  color:White">
+		<h2>Allow Mock Locations Required</h2>
+        <p>MockLocation requires ACCESS_MOCK_LOCATION permission. This can be turned on
+        by selecting Settings/Applications/Development/Allow mock locations.</p>
+	</div>
+	]]>
+	</string>
+		
+</resources>

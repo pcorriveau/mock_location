@@ -1,0 +1,8 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/tap_or_playback" android:menuCategory="system" android:showAsAction="ifRoom|withText" android:title="@string/menu_what_tap" android:icon="@drawable/ic_action_play"></item>
+    <item android:id="@+id/record" android:menuCategory="system" android:showAsAction="ifRoom|withText" android:title="@string/menu_record" android:icon="@drawable/ic_action_record"></item>
+    <item android:id="@+id/about" android:menuCategory="system" android:title="@string/menu_about" android:icon="@drawable/action_about"></item>
+    <item android:id="@+id/policy" android:menuCategory="system" android:title="@string/menu_policy" android:icon="@drawable/data_use_policy_light"></item>
+    <item android:id="@+id/contact_us" android:menuCategory="system" android:title="@string/menu_contact_us" android:icon="@drawable/content_email_light"></item>
+</menu>
+  

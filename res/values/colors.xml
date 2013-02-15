@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <drawable name="socialgoodworking_ab_back">#00FD00</drawable>
+    <drawable name="socialgoodworking_ab_back1">#FF9200</drawable>
+    <color name="socialgoodworking_ab_text">#A600A6</color>
+    <color name="socialgoodworking_ab_selector">#FFAD40</color>
+    <color name="socialgoodworking_disabled_text">#60606060</color>
+</resources>

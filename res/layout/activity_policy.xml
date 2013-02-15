@@ -1,0 +1,100 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollView1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true" >
+
+	<LinearLayout
+	    xmlns:tools="http://schemas.android.com/tools"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_marginLeft="0dp"
+	    android:layout_marginRight="0dp"
+	    android:layout_marginTop="0dp"
+	    android:orientation="vertical"
+	    tools:context=".PolicyActivity" >
+	
+	
+		<TextView
+		    android:id="@+id/privacy_policy"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_marginLeft="10dp"
+		    android:layout_marginRight="10dp"/>
+	
+	     <TableLayout
+	         android:layout_width="match_parent"
+	         android:layout_height="wrap_content"
+	         android:layout_marginLeft="10dp"
+	         android:layout_marginRight="10dp">
+	
+	         <TableRow
+	             android:id="@+id/tableRow1"
+	             android:layout_width="wrap_content"
+	             android:layout_height="wrap_content"
+	             android:layout_marginBottom="10dp" >
+	
+	     		<Button
+	         		android:id="@+id/network"
+	         		style="@style/DataUseButton"
+	         		android:drawableLeft="@drawable/device_access_network_cell"
+	         		android:text="@string/title_network" />
+	         </TableRow>
+	
+	         <TableRow
+	             android:id="@+id/tableRow2"
+	             android:layout_width="wrap_content"
+	             android:layout_height="wrap_content" >
+	
+	  	      <Button
+	  	          android:id="@+id/wifi"
+	  	          style="@style/DataUseButton"
+	  	          android:layout_marginBottom="10dp"
+	  	          android:drawableLeft="@drawable/device_access_network_wifi"
+	  	          android:text="@string/title_wifi" />
+	         </TableRow>
+	
+	         <TableRow
+	             android:id="@+id/tableRow3"
+	             android:layout_width="wrap_content"
+	             android:layout_height="wrap_content" >
+	
+	    		<Button
+	    		    android:id="@+id/storage"
+	    		    style="@style/DataUseButton"
+	    		    android:layout_marginBottom="10dp"
+	    		    android:drawableLeft="@drawable/device_access_storage"
+	    		    android:text="@string/title_storage" />
+	         </TableRow>
+	
+	         <TableRow
+	             android:id="@+id/tableRow4"
+	             android:layout_width="wrap_content"
+	             android:layout_height="wrap_content" >
+	
+	             <Button
+	                 android:id="@+id/mock_location"
+	                 style="@style/DataUseButton"
+	                 android:layout_marginBottom="10dp"
+	                 android:drawableLeft="@drawable/device_access_location_off"
+	                 android:text="@string/title_mock" />
+	         </TableRow>
+	         
+	         <TableRow
+	             android:id="@+id/tableRow5"
+	             android:layout_width="wrap_content"
+	             android:layout_height="wrap_content" >
+	
+	             <Button
+	                 android:id="@+id/email"
+	                 style="@style/DataUseButton"
+	                 android:layout_marginBottom="10dp"
+	                 android:drawableLeft="@drawable/content_email"
+	                 android:text="@string/title_email" />
+	
+	         </TableRow>
+	         
+	     </TableLayout>
+	     
+	</LinearLayout>
+</ScrollView>

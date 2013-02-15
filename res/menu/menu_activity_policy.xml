@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:id="@+id/full_text" android:menuCategory="system" android:showAsAction="ifRoom|withText" android:title="@string/menu_policy" android:icon="@drawable/data_use_policy_dark"></item>
+</menu>

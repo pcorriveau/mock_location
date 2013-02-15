@@ -1,0 +1,24 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main_layout"
+    style="@style/CommonButton"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <fragment
+	    xmlns:map="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/locationmap"
+        class="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+  		map:cameraZoom="13"/>
+
+    <Button
+        android:id="@+id/btnStartStop"
+        style="@style/CommonButton"
+        android:background ="@drawable/common_button"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/button_start"  />  
+</LinearLayout>

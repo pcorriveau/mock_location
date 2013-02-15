@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_route"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp">
+	
+	<TextView
+	    android:id="@+id/tv1"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:paddingLeft="2dp"
+	    android:text="Route name"
+	    android:textColor="#ffffff" />
+
+	<EditText
+	    android:id="@+id/route_name"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:hint="route name"
+	    android:inputType="text"
+	    android:layout_marginBottom="10dp" />
+
+	<TextView
+	    android:id="@+id/tv2"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:paddingLeft="2dp"
+	    android:text="Update interval"
+	    android:textColor="#ffffff" />
+
+	<LinearLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content" 
+	    android:orientation="horizontal">
+	    
+	<EditText
+	    android:id="@+id/update_interval"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:hint="5"
+	    android:inputType="number"
+	    android:textAlignment="center" />
+	
+		<TextView
+		    android:id="@+id/tv3"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:paddingLeft="10dp"
+		    android:text="seconds"
+		    android:textColor="#ffffff" />
+	    	    
+	</LinearLayout>
+
+</LinearLayout>
+
