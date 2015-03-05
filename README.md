@@ -1,14 +1,13 @@
 MockLocation
 =============
 
-MockLocation, a [SocialGoodworking][1] project, is an Android application that can be used to set fake GPS locations returned by the GPS provider for testing purposes, 
-letting you record routes and play them back.
+MockLocation, a [code zero one][1] project, is an Android application that can be used to set fake GPS locations returned by the GPS provider for testing purposes, letting you record routes and play them back.
 
 It uses ActionBarSherlock, Google Maps Android API v2 and a location library written by me.
 
 MockLocation also demonstrates a first pass at an approach that tries to answer this question:
 
-'How can I quickly see, understand and negotiate what I’ll be giving up when I click ‘I accept the Terms of Service’ 
+'How can I quickly see, understand and negotiate what Iâ€™ll be giving up when I click â€˜I accept the Terms of Serviceâ€™ 
 on a website or mobile application?'
 
 See http://mappingthegaps.blogspot.com/2012/09/data-practice-policy-and-negotiated-use_2811.html for details.
@@ -19,7 +18,7 @@ to this: if you want to send mock locations to Google's Navigation app, you'll h
 Developed By
 ============
 
-* Paul Corriveau - <paul@socialgoodworking.us>
+* Paul Corriveau - <pcorriveau@codezeroone.com>
 
 License
 =======
@@ -42,4 +41,4 @@ License
 
 
 
- [1]: http://socialgoodworking.us
+ [1]: codezeroone.com
